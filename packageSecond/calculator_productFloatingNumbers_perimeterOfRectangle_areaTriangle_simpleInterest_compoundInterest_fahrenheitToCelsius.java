@@ -61,7 +61,7 @@ public class calculator_productFloatingNumbers_perimeterOfRectangle_areaTriangle
             case 7: System.out.println("Fahrenheit to Celsius...");
                 System.out.print("Enter temperature in Fahrenheit: ");
                 float fahrenheit = input.nextFloat();
-                System.out.println("Temperature in Celsius is: " + ((fahrenheit - 32)*5/9));
+                System.out.println("Temperature in Celsius is: " + ((fahrenheit - 32)*5.0f/9.0f) + "c");
                 break;
         }
         input.close();
