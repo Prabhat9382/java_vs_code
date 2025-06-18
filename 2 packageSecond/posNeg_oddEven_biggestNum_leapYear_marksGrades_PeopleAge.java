@@ -40,7 +40,7 @@ public class posNeg_oddEven_biggestNum_leapYear_marksGrades_PeopleAge {
             case 4: System.out.println("Checking if the year is leap year or not...");
             System.out.print("Enter the year: ");
                 int year = input.nextInt();
-                if((year % 4 == 0 & year % 100 != 0) || year % 400 == 0) {
+                if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
                     System.out.println(year + " is a leap year");
                 } else {
                     System.out.println(year + " is not a leap year");
