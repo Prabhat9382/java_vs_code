@@ -3,7 +3,7 @@ public class While_loop {
         int i = 1; // initialization
         while (i <= 5) { // condition
             System.out.println(i); // statement
-            i++; // increment/decrement(upadiing the condition)
+            i++; // increment/decrement(upadating the condition)
         }
         int count = 500;
         while(count >= 200){
